@@ -1,5 +1,6 @@
 # electron-web
 
+```
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
@@ -65,3 +66,4 @@ app.whenReady().then(() => {
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
+```
